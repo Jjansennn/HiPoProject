@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- 🏠 Home Page -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.hipoproject.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <!-- ke halaman Control -->
+        <action
+            android:id="@+id/action_homeFragment_to_controlFragment"
+            app:destination="@id/controlFragment" />
+
+        <!-- ke halaman Plant Info -->
+        <action
+            android:id="@+id/action_homeFragment_to_plantInfoFragment"
+            app:destination="@id/plantInfoFragment" />
+    </fragment>
+
+    <!-- ⚙️ Control Page -->
+    <fragment
+        android:id="@+id/controlFragment"
+        android:name="com.example.hipoproject.ControlFragment"
+        android:label="Control"
+        tools:layout="@layout/fragment_control">
+
+        <action
+            android:id="@+id/action_controlFragment_to_editControlFragment"
+            app:destination="@id/editControlFragment" />
+    </fragment>
+
+    <!-- ✏️ Edit Control -->
+    <fragment
+        android:id="@+id/editControlFragment"
+        android:name="com.example.hipoproject.EditControlFragment"
+        android:label="Edit Control"
+        tools:layout="@layout/fragment_edit_control" />
+
+    <!-- 🌿 Plants List -->
+    <fragment
+        android:id="@+id/plantFragment"
+        android:name="com.example.hipoproject.PlantFragment"
+        android:label="Plants"
+        tools:layout="@layout/fragment_plants">
+
+        <action
+            android:id="@+id/action_plantFragment_to_addPlantFragment"
+            app:destination="@id/addPlantFragment" />
+
+        <action
+            android:id="@+id/action_plantFragment_to_plantInfoFragment"
+            app:destination="@id/plantInfoFragment" />
+    </fragment>
+
+    <!-- ➕ Add Plant -->
+    <fragment
+        android:id="@+id/addPlantFragment"
+        android:name="com.example.hipoproject.AddPlantFragment"
+        android:label="Add Plant"
+        tools:layout="@layout/fragment_add_plant">
+
+        <action
+            android:id="@+id/action_addPlantFragment_to_plantInfoFragment"
+            app:destination="@id/plantInfoFragment" />
+    </fragment>
+
+    <!-- 🌱 Plant Info -->
+    <fragment
+        android:id="@+id/plantInfoFragment"
+        android:name="com.example.hipoproject.PlantInfoFragment"
+        android:label="Plant Info"
+        tools:layout="@layout/fragment_plant_info" />
+
+    <!-- 👤 Profile Page -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.hipoproject.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
