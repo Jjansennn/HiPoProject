@@ -2,7 +2,7 @@
 <hr>
 </div>
 
-# 💧 HIPO App — Hydroponic Intelligent Plant Operations 🪴
+# 💧HIPO App — Hydroponic Intelligent Plant Operations🪴
 
 <div align="center">
   <img src="./LOGO/ic_logo.png" width="260" alt="HIPO Logo">
