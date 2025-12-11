@@ -35,6 +35,8 @@ This project is suitable for:
 ---
 
 ## 🌱 About HIPO App
+<img src="./LOGO/POSTER.png" width="100%" alt="HIPO Logo">
+  
 
 HIPO App allows users to monitor environmental conditions (temperature, humidity, pH, TDS, water level) and control pumps/fans directly from their smartphone. Paired with ESP32 firmware, it provides a fully automated hydroponic management solution.
 
