@@ -1,19 +1,22 @@
 <div align="center">
 <hr>
-</div>
+
 
 # 💧HIPO App — Hydroponic Intelligent Operations🪴
-
+</div>
 <div align="center">
   <img src="./LOGO/ic_logo.png" width="260" alt="HIPO Logo">
-</div><br>
+  
+  <br>
+  <br>
+
 
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)]()
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)]()
 [![ESP32](https://img.shields.io/badge/ESP32-2D8CFF?style=for-the-badge\&logo=esp32\&logoColor=white)]()
 [![IoT Smart Farming](https://img.shields.io/badge/IoT%20Smart%20Farming-00AEEF?style=for-the-badge\&logo=sparkfun\&logoColor=white)]()
 [![Hydroponics](https://img.shields.io/badge/Hydroponics-0FA958?style=for-the-badge\&logo=leaflet\&logoColor=white)]()
-
+</div><br>
 <div align="center">
 <hr>
 </div>
